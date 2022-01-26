@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  artiste: MyString
+  date: 2022-01-26
+  soundcloud_tag: MyString
+  duration: 2022-01-26 16:41:12
+  live: false
+  categorie_id: 1
+
+two:
+  name: MyString
+  artiste: MyString
+  date: 2022-01-26
+  soundcloud_tag: MyString
+  duration: 2022-01-26 16:41:12
+  live: false
+  categorie_id: 1
