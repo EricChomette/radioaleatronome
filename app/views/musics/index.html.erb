@@ -1,16 +1,14 @@
+
 <h1>Ici est la liste des musics</h1>
 
 <%  @musics.each do |music|%>
-<%= music.name %>
-<%= music.artiste %>
-<div>
-
-  <%= " #{music.soundcloud_tag}" %>
-</div>
+  <div class>
+    <p>
+      <%= music.name %>  <br>
+      <%= music.artiste %>  <br>
+    </p>
+  </div>
+  <div class="box-music">
+      <iframe width="60%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52617120&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  </div>
 <% end%>
-
-
-<iframe width="100%" height="600" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52617120&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-
-  
